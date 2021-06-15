@@ -25,7 +25,6 @@ def write_file(filename, lines):
         for line in lines:
             f.write(line + '\n')
 
-
 def main():
     lines = read_file('input.txt')
     lines = convert(lines)
